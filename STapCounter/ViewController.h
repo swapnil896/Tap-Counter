@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    UILabel *labelTitle, *labelOutput;
+    UIButton *buttonReset, *buttonTap;
+    CGFloat screenHeight, screenWidth;
+}
 
 @end
 
